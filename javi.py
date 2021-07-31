@@ -6,7 +6,7 @@ import wikipedia #pip install wikipedia
 import webbrowser
 import os
 import smtplib
-import cv2
+
 import random
 import pywhatkit as kit
 import sys
@@ -96,19 +96,9 @@ if __name__ == "__main__":
         elif 'open command prompt' in query:
              os.system('start cmd')
 
-        # elif 'open camera' in query:
-        #     cap = cv2.VideoCapture(0)
-        #     while True:
-        #         ret,img = cap.read()
-        #         cv2.imshow('webcam',img)
-        #         k = cv2.waitKey(50)
-        #         if k==27:
-        #             break;
-        #             cap.release()
-        #             cv2.destroyALLWindows()
 
 
-        elif "send message to harshit in whatsapp" in query:
+        elif "send message to friend in whatsapp" in query:
             speak(" mam what should i say")
             kit.sendwhatmsg("any no.","hii,how are you",7,20)
 
