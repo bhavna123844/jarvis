@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
         elif "send message to harshit in whatsapp" in query:
             speak(" mam what should i say")
-            kit.sendwhatmsg("7987449725","hii,how are you",7,20)
+            kit.sendwhatmsg("any no.","hii,how are you",7,20)
 
         elif "play songs on youtube" in query:
             kit.playonyt("Tommy Lee")
